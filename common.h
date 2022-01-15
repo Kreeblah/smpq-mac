@@ -26,6 +26,10 @@
 #define inline __inline__
 #endif
 
+#if defined(__APPLE__) && defined(__MACH__)
+#include <stdio.h>
+#endif
+
 /*********
  * Flags *
  *********/
